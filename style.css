@@ -1,11 +1,62 @@
 body {
     margin: 0px;
+    font-family: "open sans";
 }
 
 .head {
-    font-family: "open sans";
     color: white;
     border-bottom: #89DEEF 3px solid;
     background-color: #004175;
     padding: 10px 0px 10px 40px;
 }
+
+img {
+    height: 250px;
+    width: 350px;
+}
+
+#row {
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: red;
+    display: flex;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#rowa {
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#rowb {
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.foot {
+    width: 90%;
+    height: 350px;
+    margin: 0 auto;
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/* #row1 div {
+    width: 200px;
+    height: 200px;
+} */
