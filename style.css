@@ -21,8 +21,7 @@ img {
     margin: 0 auto;
     background-color: red;
     display: flex;
-    /* flex-direction: row; */
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 
@@ -32,7 +31,7 @@ img {
     margin: 0 auto;
     background-color: blue;
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 
@@ -42,8 +41,14 @@ img {
     margin: 0 auto;
     background-color: greenyellow;
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
+}
+
+.attr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .foot {
@@ -52,7 +57,7 @@ img {
     margin: 0 auto;
     background-color: orange;
     display: flex;
-    flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-evenly;
 }
 
