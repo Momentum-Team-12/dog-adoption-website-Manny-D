@@ -7,61 +7,80 @@ body {
     color: white;
     border-bottom: #89DEEF 3px solid;
     background-color: #004175;
-    padding: 10px 0px 10px 40px;
+    padding: 10px 0px 10px 85px;
 }
 
+.adopt {
+    padding: 0px 0px 0px 85px;
+}
+
+
 img {
-    height: 250px;
-    width: 350px;
+    height: 270px;
+    width: 370px;
 }
 
 #row {
     width: 90%;
-    height: 350px;
+    height: 400px;
     margin: 0 auto;
-    background-color: red;
+    /* background-color: red; */
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #rowa {
     width: 90%;
-    height: 350px;
+    height: 400px;
     margin: 0 auto;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 #rowb {
     width: 90%;
-    height: 350px;
+    height: 400px;
     margin: 0 auto;
-    background-color: greenyellow;
+    /* background-color: greenyellow; */
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
-.attr {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+
+.doggos {
+    height: 325px;
+    width: 400px;
+    display: inline;
 }
+
 
 .foot {
-    width: 90%;
-    height: 350px;
+    /* width: 85%; */
+    height: 300px;
     margin: 0 auto;
     background-color: orange;
     display: flex;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
-/* #row1 div {
-    width: 200px;
-    height: 200px;
+span {
+    background-color: #89DEEF;
+    border: #89DEEF;
+    border-radius: 10px;
+    padding: 0px 3px 0px 3px;
+    /* Does't make any noticeable change with this added
+    display: flex;
+    display: inline-block; */
+}
+
+/* solved w/ addition of Span - see lines 71 to 75
+.attr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 } */
