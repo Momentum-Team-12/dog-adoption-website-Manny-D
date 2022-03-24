@@ -1,0 +1,11 @@
+body {
+    margin: 0px;
+}
+
+.head {
+    font-family: "open sans";
+    color: white;
+    border-bottom: #89DEEF 3px solid;
+    background-color: #004175;
+    padding: 10px 0px 10px 40px;
+}
