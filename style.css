@@ -26,7 +26,7 @@ body {
     margin: 0 auto;
     display: flex;
     /* flex-wrap: wrap; */
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .doggos img {
@@ -69,6 +69,8 @@ footer {
         rgba(166, 169, 240, 0.45)
     ),
     url(starter_files/images/donate.jpg);
+    display: inline-block;
+    background-size: 50% auto, cover;
 }
 
 .volunteer {
@@ -78,6 +80,8 @@ footer {
         rgba(166, 169, 240, 0.45)
     ),
     url(starter_files/images/volunteer.jpg);
+    display: inline-block;
+    background-size: 50% auto, cover;
 }
 
 .location {
@@ -86,5 +90,7 @@ footer {
         rgba(166, 169, 240, 0.45), 
         rgba(166, 169, 240, 0.45)
     ),
-        url(starter_files/images/location.png);
+    url(starter_files/images/location.png);
+    display: inline-block;
+    background-size: 50% auto, cover; /* https://stackoverflow.com/questions/27845981/css-size-only-the-background-image-not-the-gradient */
 } 
