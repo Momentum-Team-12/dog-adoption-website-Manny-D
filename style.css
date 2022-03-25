@@ -14,48 +14,19 @@ body {
     padding: 0px 0px 0px 85px;
 }
 
-
-/* Will add this to individual areas, as this is affecting footer images too
-img {
-    height: 270px;
-    width: 370px;
-} */
-
-.row {
-    width: 90%;
-    height: 400px;
-    margin: 0 auto;
-    /* background-color: red; */
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-around; 
-}
-
-.rowa {
-    width: 90%;
-    height: 400px;
-    margin: 0 auto;
-    /* background-color: blue; */
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
-}
-
-.rowb {
-    width: 90%;
-    height: 400px;
-    margin: 0 auto;
-    /* background-color: greenyellow; */
-    display: flex;
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
-}
-
-
 .doggos {
     height: 325px;
     width: 400px;
     display: inline;
+}
+
+.row, .rowa, .rowb {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
 }
 
 .doggos img {
@@ -65,7 +36,6 @@ img {
 
 span {
     background-color: #89DEEF;
-    border: #89DEEF;
     border-radius: 10px;
     padding: 0px 3px 0px 3px;
     /* Does't make any noticeable change with this added
@@ -81,15 +51,18 @@ footer {
     line-height: 350px;
     font-size: x-large;
     font-weight: bold;
-
 }
 
-.donate {
+.donate, .volunteer, .location {
     color: white;
     flex: 1 1 auto;
-    /* border: red 1px solid; */
+    margin: auto;
     text-align: center;
     margin: auto;
+}
+
+
+.donate {
     background: 
     linear-gradient(
         rgba(166, 169, 240, 0.45), 
@@ -99,11 +72,6 @@ footer {
 }
 
 .volunteer {
-    color: white;
-    flex: 1 1 auto;
-    /* border: red 1px solid; */
-    text-align: center;
-    margin: auto;
     background: 
     linear-gradient(
         rgba(166, 169, 240, 0.45), 
@@ -113,15 +81,10 @@ footer {
 }
 
 .location {
-    color: white;
-    flex: 1 1 auto;
-    /* border: red 1px solid; */
-    text-align: center;
-    margin: auto;
     background: 
     linear-gradient(
         rgba(166, 169, 240, 0.45), 
         rgba(166, 169, 240, 0.45)
-        ),
+    ),
         url(starter_files/images/location.png);
 } 
