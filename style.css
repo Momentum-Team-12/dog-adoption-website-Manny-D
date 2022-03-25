@@ -15,38 +15,39 @@ body {
 }
 
 
+/* Will add this to individual areas, as this is affecting footer images too
 img {
     height: 270px;
     width: 370px;
-}
+} */
 
-#row {
+.row {
     width: 90%;
     height: 400px;
     margin: 0 auto;
     /* background-color: red; */
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    justify-content: space-around; 
 }
 
-#rowa {
+.rowa {
     width: 90%;
     height: 400px;
     margin: 0 auto;
     /* background-color: blue; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
 }
 
-#rowb {
+.rowb {
     width: 90%;
     height: 400px;
     margin: 0 auto;
     /* background-color: greenyellow; */
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
 }
 
@@ -57,15 +58,9 @@ img {
     display: inline;
 }
 
-
-.foot {
-    /* width: 85%; */
-    height: 300px;
-    margin: 0 auto;
-    background-color: orange;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
+.doggos img {
+    height: 270px;
+    width: 370px;
 }
 
 span {
@@ -78,9 +73,55 @@ span {
     display: inline-block; */
 }
 
-/* solved w/ addition of Span - see lines 71 to 75
-.attr {
+
+footer {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-} */
+    height: 350px;
+    width: 100%;
+    line-height: 350px;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.donate {
+    color: white;
+    flex: 1 1 auto;
+    /* border: red 1px solid; */
+    text-align: center;
+    margin: auto;
+    background: 
+    linear-gradient(
+        rgba(166, 169, 240, 0.45), 
+        rgba(166, 169, 240, 0.45)
+    ),
+    url(starter_files/images/donate.jpg);
+}
+
+.volunteer {
+    color: white;
+    flex: 1 1 auto;
+    /* border: red 1px solid; */
+    text-align: center;
+    margin: auto;
+    background: 
+    linear-gradient(
+        rgba(166, 169, 240, 0.45), 
+        rgba(166, 169, 240, 0.45)
+    ),
+    url(starter_files/images/volunteer.jpg);
+}
+
+.location {
+    color: white;
+    flex: 1 1 auto;
+    /* border: red 1px solid; */
+    text-align: center;
+    margin: auto;
+    background: 
+    linear-gradient(
+        rgba(166, 169, 240, 0.45), 
+        rgba(166, 169, 240, 0.45)
+        ),
+        url(starter_files/images/location.png);
+} 
