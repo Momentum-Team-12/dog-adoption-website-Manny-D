@@ -3,7 +3,7 @@ body {
     font-family: "open sans";
 }
 
-.head {
+header {
     color: white;
     border-bottom: #89DEEF 3px solid;
     background-color: #004175;
@@ -14,7 +14,7 @@ body {
     padding: 0px 0px 0px 85px;
 }
 
-.doggos {
+.doggos { /* Container for dog images, name and attriubutes */
     height: 325px;
     width: 400px;
     display: inline;
@@ -50,7 +50,6 @@ span {
     margin: 0px 1px 5px 1px;
 }
 
-
 footer {
     display: flex;
     height: 350px;
@@ -64,9 +63,8 @@ footer {
 .donate, .volunteer, .location {
     color: white;
     flex: 1 1 auto;
-    margin: auto;
-    text-align: center;
-    margin: auto;
+    text-align: center; 
+    /* margin: auto; -> doesn't seem to have an affect */
 }
 
 .donate {
