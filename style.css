@@ -20,27 +20,34 @@ body {
     display: inline;
 }
 
+h3 {
+    margin: 2px;
+}
+
 .row, .rowa, .rowb {
     width: 90%;
-    height: 400px;
-    margin: 0 auto;
+    height: 415px;
+    margin: 10px auto;
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-around;
 }
 
 .doggos img {
-    height: 270px;
-    width: 370px;
+    max-height: 325px;
+    width: 100%;
+}
+
+.attr {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 span {
+    font-size: .9em; /* font sizing -> https://www.w3schools.com/css/css_font_size.asp */
     background-color: #89DEEF;
     border-radius: 10px;
-    padding: 0px 3px 0px 3px;
-    /* Does't make any noticeable change with this added
-    display: flex;
-    display: inline-block; */
+    padding: 1px 3px 1px 3px;
+    margin: 0px 1px 5px 1px;
 }
 
 
@@ -48,9 +55,10 @@ footer {
     display: flex;
     height: 350px;
     width: 100%;
-    line-height: 350px;
-    font-size: x-large;
-    font-weight: bold;
+    line-height: 350px; /* centered footer text -> https://www.w3schools.com/css/tryit.asp?filename=trycss_align_line-height */
+    font-family: "Oswald";  
+    font-size: 3.2em;
+    /* font-weight: bold; */
 }
 
 .donate, .volunteer, .location {
@@ -61,7 +69,6 @@ footer {
     margin: auto;
 }
 
-
 .donate {
     background: 
     linear-gradient(
@@ -69,8 +76,7 @@ footer {
         rgba(166, 169, 240, 0.45)
     ),
     url(starter_files/images/donate.jpg);
-    display: inline-block;
-    background-size: 50% auto, cover;
+    background-size: 100%;
 }
 
 .volunteer {
@@ -80,8 +86,7 @@ footer {
         rgba(166, 169, 240, 0.45)
     ),
     url(starter_files/images/volunteer.jpg);
-    display: inline-block;
-    background-size: 50% auto, cover;
+    background-size: 100% cover; /* cover prevented dup of image appearing on the bottom */
 }
 
 .location {
@@ -91,6 +96,5 @@ footer {
         rgba(166, 169, 240, 0.45)
     ),
     url(starter_files/images/location.png);
-    display: inline-block;
-    background-size: 50% auto, cover; /* https://stackoverflow.com/questions/27845981/css-size-only-the-background-image-not-the-gradient */
+    background-size: 100%; /* https://stackoverflow.com/questions/27845981/css-size-only-the-background-image-not-the-gradient */
 } 
