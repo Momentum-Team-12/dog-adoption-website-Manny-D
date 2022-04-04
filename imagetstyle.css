@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    font-family: "open sans";
+}
+
+footer {
+    display: flex;
+    height: 350px;
+    width: 100%;
+    line-height: 350px;
+    font-size: x-large;
+    font-weight: bold;
+
+}
+
+.donate {
+    color: white;
+    flex: 1 1 auto;
+    border: red 1px solid;
+    text-align: center;
+    margin: auto;
+    background: 
+    linear-gradient(
+        rgba(166, 169, 240, 0.45), 
+        rgba(166, 169, 240, 0.45)
+    ),
+    url(starter_files/images/donate.jpg);
+}
+
+.volunteer {
+    color: white;
+    flex: 1 1 auto;
+    border: red 1px solid;
+    text-align: center;
+    margin: auto;
+    background: 
+    linear-gradient(
+        rgba(166, 169, 240, 0.45), 
+        rgba(166, 169, 240, 0.45)
+    ),
+    url(starter_files/images/volunteer.jpg);
+}
+
+.location {
+    color: white;
+    flex: 1 1 auto;
+    border: red 1px solid;
+    text-align: center;
+    margin: auto;
+    background: 
+    linear-gradient(
+        rgba(166, 169, 240, 0.45), 
+        rgba(166, 169, 240, 0.45)
+        ),
+        url(starter_files/images/location.png);
+} 
+
+
+
+/* for style.css in og code / revision I made worked
+Lines 25 53
+
+.row {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: red; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around; 
+}
+
+.rowa {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: blue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.rowb {
+    width: 90%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+*/
